@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+	  loadSidebar: true,	//是否显示左侧菜单
+	  subMaxLevel："3",		//配置菜单层级，默认仅显示一级
+      name: '测试文档',		//配置项目名
+      repo: '',				//配置代码库地址
+	  auto2top：true		//更改路由时自动滚动到屏幕顶部
+	 //search：				//配置启用搜索功能。需要加载对应js文件。后面有说明
+    }
+  </script>
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+</body>
+</html>
